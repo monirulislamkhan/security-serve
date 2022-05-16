@@ -1,0 +1,424 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+
+header.centered_logo .header_inner_left {
+display: block;
+    float: left;
+    left: 0;
+    margin: 12px 0;
+    position: relative;
+    width: 100%;
+}
+
+nav.main_menu {
+    background: #F7941D none repeat scroll 0 0;
+    left: 50%;
+    position: absolute;
+    text-align: left;
+    width: 95%;
+    z-index: 100;
+}
+nav.main_menu ul li.active a {
+    background: #ED551C none repeat scroll 0 0 !important;
+}
+.q_logo{
+	 float: left;
+    left: 25%;
+    width: auto;
+}
+
+h2{
+	 border-bottom: 0px double #ED551C;
+    padding-bottom: 0px;
+}
+
+h3{
+	 border-bottom: 0px double #ED551C;
+    padding-bottom: 0px;
+}
+.wpb_wrapper ul li{
+
+   background: rgba(0, 0, 0, 0) url("o-bullet.png") no-repeat scroll 0 7px;
+    font-weight: 500;
+    line-height: 28px;
+    list-style: outside none none;
+    margin: 18px 0 0 5px;
+    padding-left: 21px;
+}
+#orange .wpb_text_column .wpb_wrapper{
+ /* background: #f7a673 none repeat scroll 0 0;*/
+  background: #F77A31 none repeat scroll 0 0;
+    padding: 25px 45px;
+    text-align: justify;
+	min-height:410px;
+	-webkit-box-shadow: 1px 1px 7px 2px #a5a5a5;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 7px 2px #a5a5a5;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 7px 2px #a5a5a5;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+#orange .wpb_wrapper p{
+	color:#ffffff;
+	 color: #ffffff;
+    font-weight: 600;
+    line-height: 27px;
+    /*text-shadow: 2px 2px 5px #767676;*/
+}
+
+#orange .wpb_wrapper h5{
+	 border-bottom: 4px double #ffffff;
+    color: #fff;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 15px 0 20px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#orange .wpb_wrapper hr{
+	color: #ffffff;
+    margin: 30px 0px;
+}
+#orange a{
+	color:#1C3917
+}
+.orange-box{
+	background:url(../../uploads/2016/07/title-bg.jpg) no-repeat !important;
+padding:6px 0px 18px !important;
+}
+.orange-box h3{
+	color:#000000 !important;
+font-size: 45px;
+padding:10px 0px;
+}
+.orange-box h5{
+	color: #ffffff !important;
+font-style: italic;
+font-size: 33px;
+line-height: 42px;
+padding: 6px 0px 0px;
+}
+#green .wpb_text_column .wpb_wrapper{
+  background: #1C3B1B none repeat scroll 0 0;
+    padding: 25px 35px;
+    text-align: justify;
+	min-height:540px;
+	-webkit-box-shadow: 1px 1px 7px 2px #a5a5a5;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 7px 2px #a5a5a5;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 7px 2px #a5a5a5;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+#green .wpb_text_column .wpb_wrapper h5{
+	text-align:center;
+	border-bottom:1px solid #f7a673;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+
+#green .wpb_wrapper ul{
+	margin-left:0px;
+	color:#F36F23;
+}
+
+#green .wpb_wrapper ul li{
+	  color: #f36f23;
+    list-style: none;
+    background: url(o-bullet.png) no-repeat 0px 5px;
+    padding-left: 17px;
+    margin: 12px 0px 0px 5px;
+    font-weight: 600;
+}
+
+#green .wpb_wrapper ul li ul.sub-ul{
+	color:#ffffff;
+	padding:0px;
+}
+
+#green .wpb_wrapper ul li ul.sub-ul li{
+	color:#ffffff;
+	 background: url(w-bullet.png) no-repeat 0px 5px;
+}
+#green .wpb_wrapper p{
+	color:#f36f23;
+    font-weight: 600;
+    line-height: 26px;
+   /* text-shadow: 2px 2px 5px #767676;*/
+}
+
+#green .wpb_wrapper hr{
+	color: #ffffff;
+    margin: 30px 0px;
+}
+#green a{
+	color:#ffffff;
+}
+
+table td {
+    border: 1px solid #1c3b1b;
+    padding: 10px;
+}
+
+.wpb_wrapper ul.pdf-icon{
+	width:100%;
+}
+
+.wpb_wrapper ul.pdf-icon li{
+	background: rgba(0, 0, 0, 0) url("pdf-icon.png") no-repeat scroll 0 5px !important;
+    list-style: outside none none !important;
+    margin: 0px !important;
+    padding: 20px 0px !important;
+	
+}
+
+.wpb_wrapper ul.pdf-icon li a{
+	font-size: 20px;
+    padding: 15px 0 10px 50px;
+}
+
+.wpb_wrapper ul.pdf-links{
+	width:100%;
+}
+
+.wpb_wrapper ul.pdf-links li{
+	background: rgba(0, 0, 0, 0) url("pdf-icon.png") no-repeat scroll 0 5px !important;
+    list-style: outside none none !important;
+    margin: 14px 0px !important;
+    padding: 10px 0px !important;
+	
+}
+
+.wpb_wrapper ul.pdf-links li a{
+	font-size: 14px;
+    padding: 15px 0 10px 40px;
+}
+
+.vc_text_separator.full div{
+	font-size:20px !important;
+}
+
+.vc_text_separator.full{
+	border-top: 1px solid #ed551c !important;
+	padding-bottom: 30px !important;;
+}
+
+
+/*********** my css ***********/
+header.centered_logo .q_logo {
+    margin-left: 30px;
+}
+
+
+.header-left-from-logo-widget, .header-right-from-logo-widget {
+    width: 43%;
+}
+.header-right-from-logo-widget-inner {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.head_top {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+.head_top > li h2{
+font-size:13px;
+line-height: 18px;
+color:#4c4c4c;
+letter-spacing:0.3px;
+}
+.head_top p {
+    font-size: 13px;
+    margin: 0;
+font-weight:500;
+}
+
+.head_top a {
+    font-size: 12px;
+}
+
+.head_top > li:nth-child(1) {
+    width: 40%;
+}
+
+.head_top > li:last-child {
+   border:none;
+}
+.head_top > li {
+    border-right: 1px solid #eeeeee;
+    float: left;
+    list-style: outside none none;
+    padding: 0 10px;
+    text-align: left;
+    width: 24%;
+}
+
+
+
+nav.main_menu > ul > li > a {
+    padding: 0 17.5px;
+color:#000;
+font-size:15px;
+font-weight:600;
+}
+ 
+
+
+.vc_custom_1510210992495 {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 190px;
+}
+
+
+.vc_custom_1510210992495 .wpb_wrapper h3 {
+    color: #fff;
+font-weight:600;
+ padding: 15px 0 5px;
+}
+
+.vc_custom_1510210992495 .wpb_wrapper h5 {
+    color: #fff;
+ padding: 5px 0;
+ font-style: italic;
+}
+
+
+.partner_home .wpb_wrapper > h2 {
+    color: #f26520;
+font-size:42px;
+font-weight:600;
+margin-bottom:30px;
+}
+
+.service_home .wpb_wrapper > h2 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service_inner > h2 {
+    color: #f7941d;
+    font-size: 23px;
+    text-align: center;
+}
+.service_inner > p {
+    text-align: justify;
+padding: 0 10px;
+margin: 0;
+font-weight:600;
+}
+header.sticky nav.main_menu > ul > li > a, header.light.sticky nav.main_menu > ul > li > a, header.dark.sticky nav.main_menu > ul > li > a{color:#000 !important;font-weight:600;}
+.wpb_wrapper .testimonials ul li {
+    background: none;
+}
+.service_home_inner .wpb_wrapper {
+    text-align: center;
+}
+
+.defence-logo img {
+    float: left;
+    width: 19%;
+}
+
+.wpb_wrapper .qbutton {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+margin-top:30px;
+text-transform: uppercase;
+font-weight: 600;
+
+}
+.testimonial_image_holder {
+    margin: 0 0 10px;
+}
+.testimonial_image_holder img {
+    width: 70px;
+}
+.testimonials .testimonial_text_inner p {
+    font-weight: 500;
+color: #292929;
+}
+   
+.wpb_single_image.vc_align_left {
+    float: left;
+    margin-bottom: 20px !important;
+    margin-right: 20px;
+}
+
+.cert_head .wpb_wrapper > h2 {
+    padding: 60px 0 60px;
+    text-align: center;
+}
+
+
+
+
+.three_columns > .column1, .three_columns > .column2, .three_columns > .column3{width:30.33%;padding-right:30px;}
+.footer_top .footer_col3 {    
+    padding-left: 36px;
+    padding-right: 10px;
+}
+.foot_one h5 {
+    color: #f46f21 !important;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.foot_one ul {
+   margin: 0 !important;
+}
+.foot_co p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+padding: 10px 0;
+}
+.foot_co2{padding: 10px 0;}
+.foot_co2 p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+margin:0 !important;}
+.foot_co3 p {
+    color: #f26520;
+    font-size: 13px;
+    font-weight: 600;
+padding: 10px 0;
+}
+.slides li{background:none;}
+.three_columns > .column3 > .column_inner {
+    padding: 0 30px 0 30px;
+}
+.foot_one p {
+    font-size: 12px;
+    color: #f46f21;
+    font-weight: 500;
+}
+.textwidget h6 {
+    font-size: 16px;
+    color: #f46f21 !important;
+}
+.foot_one li {
+   
+    display: inline;
+    margin: 0 !important;
+    
+    color: #fff !important;
+}
+
+
+
+
+
+
+
